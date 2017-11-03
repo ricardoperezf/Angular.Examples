@@ -1,4 +1,6 @@
-var app = angular.module("MyFirsApp",[]);
-app.controller("FirstController", function($scope){
+angular.module("MyFirsApp",[])
+.controller("FirstController", function($scope){
     $scope.nombre = "Ricardo";
+}).controller("SecondController", function($scope){
+
 });
