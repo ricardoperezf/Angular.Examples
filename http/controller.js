@@ -24,5 +24,5 @@ angular.module("MyFirsApp", [])
                 }, function (error, status, headers, config) {
                     console.log(error);
                 });
-        }
+        };
     });
